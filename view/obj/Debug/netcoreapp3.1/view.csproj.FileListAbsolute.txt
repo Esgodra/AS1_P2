@@ -1,0 +1,15 @@
+E:\Documentos\GitHub\examen\AS1_P2\view\bin\Debug\netcoreapp3.1\view.exe
+E:\Documentos\GitHub\examen\AS1_P2\view\bin\Debug\netcoreapp3.1\view.deps.json
+E:\Documentos\GitHub\examen\AS1_P2\view\bin\Debug\netcoreapp3.1\view.runtimeconfig.json
+E:\Documentos\GitHub\examen\AS1_P2\view\bin\Debug\netcoreapp3.1\view.runtimeconfig.dev.json
+E:\Documentos\GitHub\examen\AS1_P2\view\bin\Debug\netcoreapp3.1\view.dll
+E:\Documentos\GitHub\examen\AS1_P2\view\bin\Debug\netcoreapp3.1\view.pdb
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.csprojAssemblyReference.cache
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.Form1.resources
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.csproj.GenerateResource.cache
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.AssemblyInfoInputs.cache
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.AssemblyInfo.cs
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.csproj.CoreCompileInputs.cache
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.dll
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.pdb
+E:\Documentos\GitHub\examen\AS1_P2\view\obj\Debug\netcoreapp3.1\view.genruntimeconfig.cache

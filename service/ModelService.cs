@@ -1,3 +1,4 @@
+using com.impoauto.dao;
 using com.impoauto.model;
 using System.Collections.Generic;
 
@@ -16,6 +17,8 @@ namespace com.impoauto.service
         public void createModel(ModelEntity model)
         {
             // TODO implement here
+            ModelDao modelDao = new ModelDao();
+            modelDao.createModel(model);
         }
 
         /// <summary>
@@ -25,6 +28,8 @@ namespace com.impoauto.service
         public void updateModel(ModelEntity model)
         {
             // TODO implement here
+            ModelDao modelDao = new ModelDao();
+            modelDao.updateModel(model);
         }
 
         /// <summary>
@@ -34,6 +39,8 @@ namespace com.impoauto.service
         public void deleteModel(int id)
         {
             // TODO implement here
+            ModelDao modelDao = new ModelDao();
+            modelDao.deleteModel(id);
         }
 
         /// <summary>
@@ -42,7 +49,10 @@ namespace com.impoauto.service
         public List<ModelEntity> getAllModel()
         {
             // TODO implement here
-            return null;
+            ModelDao model = new ModelDao();
+            List<ModelEntity> list;
+            list = model.readAllModel();
+            return list;
         }
 
         /// <summary>
@@ -52,7 +62,10 @@ namespace com.impoauto.service
         public ModelEntity getByIdModel(int id)
         {
             // TODO implement here
-            return null;
+            ModelDao modelDao = new ModelDao();
+            ModelEntity model;
+            model = modelDao.readByIdModel(id);
+            return model;
         }
     }
 }

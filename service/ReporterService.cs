@@ -1,5 +1,6 @@
 using com.impoauto.model;
 using System.Collections.Generic;
+using com.impoauto.dao;
 
 namespace com.impoauto.service
 {
@@ -13,17 +14,25 @@ namespace com.impoauto.service
         /// @param idImporter
         /// @param reporte
         /// </summary>
-        public void getReporterModel(int idImporter, List<ModelEntity> reporte)
+        public List<ModelEntity> getReporterModel(int idImporter)
         {
             // TODO implement here
+            ReporterDao reportDao = new ReporterDao();
+            List<ModelEntity> report = new List<ModelEntity>();
+            report = reportDao.generateReporterModel(idImporter);
+            return report;
         }
 
         /// <summary>
         /// @param consolidate
         /// </summary>
-        public void getReporterConsolidate(List<ConsolidateEntity> consolidate)
+        public List<ConsolidateEntity> getReporterConsolidate()
         {
             // TODO implement here
+            ReporterDao reportDao = new ReporterDao();
+            List<ConsolidateEntity> report = new List<ConsolidateEntity>();
+            report = reportDao.generateReporterConsolidate();
+            return report;
         }
     }
 }

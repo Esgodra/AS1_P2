@@ -1,5 +1,6 @@
 using com.impoauto.model;
 using System.Collections.Generic;
+using com.impoauto.dao;
 
 namespace com.impoauto.service
 {
@@ -16,6 +17,8 @@ namespace com.impoauto.service
         public void createUser(UserEntity user)
         {
             // TODO implement here
+            UserDao userDao = new UserDao();
+            userDao.createUser(user);
         }
 
         /// <summary>
@@ -25,15 +28,19 @@ namespace com.impoauto.service
         public void updateUser(UserEntity user)
         {
             // TODO implement here
+            UserDao userDao = new UserDao();
+            userDao.updateUser(user);
         }
 
         /// <summary>
         /// @param user
         /// @return
         /// </summary>
-        public void deleteUser(UserEntity user)
+        public void deleteUser(int id)
         {
             // TODO implement here
+            UserDao userDao = new UserDao();
+            userDao.deleteUser(id);
         }
 
         /// <summary>
@@ -42,7 +49,10 @@ namespace com.impoauto.service
         public List<UserEntity> getAllUsers()
         {
             // TODO implement here
-            return null;
+            UserDao userDao = new UserDao();
+            List<UserEntity> list;
+            list = userDao.readAllUser();
+            return list;
         }
 
         /// <summary>
@@ -52,7 +62,10 @@ namespace com.impoauto.service
         public UserEntity getByIdUser(int id)
         {
             // TODO implement here
-            return null;
+            UserDao userDao = new UserDao();
+            UserEntity list;
+            list = userDao.readByIdUser(id);
+            return list;
         }
     }
 }

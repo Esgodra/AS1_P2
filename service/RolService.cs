@@ -1,5 +1,6 @@
 using com.impoauto.model;
 using System.Collections.Generic;
+using com.impoauto.dao;
 
 namespace com.impoauto.service
 {
@@ -16,6 +17,8 @@ namespace com.impoauto.service
         public void createRol(RolEntity rol)
         {
             // TODO implement here
+            RolDao rolDao = new RolDao();
+            rolDao.createRol(rol);
         }
 
         /// <summary>
@@ -25,6 +28,8 @@ namespace com.impoauto.service
         public void updateRol(RolEntity rol)
         {
             // TODO implement here
+            RolDao rolDao = new RolDao();
+            rolDao.updateRol(rol);
         }
 
         /// <summary>
@@ -34,6 +39,8 @@ namespace com.impoauto.service
         public void deleteRol(int id)
         {
             // TODO implement here
+            RolDao rolDao = new RolDao();
+            rolDao.deleteRol(id);
         }
 
         /// <summary>
@@ -42,7 +49,10 @@ namespace com.impoauto.service
         public List<RolEntity> getAllRol()
         {
             // TODO implement here
-            return null;
+            RolDao rolDao = new RolDao();
+            List<RolEntity> list;
+            list = rolDao.readAllRol();
+            return list;
         }
 
         /// <summary>
@@ -52,7 +62,10 @@ namespace com.impoauto.service
         public RolEntity getByIdRol(int id)
         {
             // TODO implement here
-            return null;
+            RolDao rolDao = new RolDao();
+            RolEntity rol;
+            rol = rolDao.readByIdRol(id);
+            return rol;
         }
     }
 }

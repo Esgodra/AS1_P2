@@ -1,0 +1,9 @@
+E:\Documentos\GitHub\examen\AS1_P2\model\bin\Debug\netcoreapp3.1\model.deps.json
+E:\Documentos\GitHub\examen\AS1_P2\model\bin\Debug\netcoreapp3.1\model.dll
+E:\Documentos\GitHub\examen\AS1_P2\model\bin\Debug\netcoreapp3.1\model.pdb
+E:\Documentos\GitHub\examen\AS1_P2\model\obj\Debug\netcoreapp3.1\model.csprojAssemblyReference.cache
+E:\Documentos\GitHub\examen\AS1_P2\model\obj\Debug\netcoreapp3.1\model.AssemblyInfoInputs.cache
+E:\Documentos\GitHub\examen\AS1_P2\model\obj\Debug\netcoreapp3.1\model.AssemblyInfo.cs
+E:\Documentos\GitHub\examen\AS1_P2\model\obj\Debug\netcoreapp3.1\model.csproj.CoreCompileInputs.cache
+E:\Documentos\GitHub\examen\AS1_P2\model\obj\Debug\netcoreapp3.1\model.dll
+E:\Documentos\GitHub\examen\AS1_P2\model\obj\Debug\netcoreapp3.1\model.pdb

@@ -1,5 +1,7 @@
+using com.impoauto.dao;
 using com.impoauto.model;
 using System.Collections.Generic;
+using com.impoauto.util;
 
 namespace com.impoauto.service
 {
@@ -16,6 +18,8 @@ namespace com.impoauto.service
         public void createImporter(ImporterEntity importer)
         {
             // TODO implement here
+            ImporterDao importerDao = new ImporterDao();
+            importerDao.createImporter(importer);
         }
 
         /// <summary>
@@ -25,6 +29,8 @@ namespace com.impoauto.service
         public void updateImporter(ImporterEntity importer)
         {
             // TODO implement here
+            ImporterDao importerDao = new ImporterDao();
+            importerDao.updateImporter(importer);
         }
 
         /// <summary>
@@ -34,6 +40,8 @@ namespace com.impoauto.service
         public void deleteImporter(int id)
         {
             // TODO implement here
+            ImporterDao importerDao = new ImporterDao();
+            importerDao.deleteImporter(id);
         }
 
         /// <summary>
@@ -41,8 +49,10 @@ namespace com.impoauto.service
         /// </summary>
         public List<ImporterEntity> getAllImporter()
         {
-            // TODO implement here
-            return null;
+            ImporterDao importerDao = new ImporterDao();
+            List<ImporterEntity> list;
+            list = importerDao.readAllImporter();
+            return list;
         }
 
         /// <summary>
@@ -52,7 +62,10 @@ namespace com.impoauto.service
         public ImporterEntity getByIdImporter(int id)
         {
             // TODO implement here
-            return null;
+            ImporterDao importerDao = new ImporterDao();
+            ImporterEntity importer;
+            importer = importerDao.readByIdImporter(id);
+            return importer;
         }
 
         /// <summary>
@@ -61,6 +74,8 @@ namespace com.impoauto.service
         public string getImporterCode(int id)
         {
             // TODO implement here
+            Functions functions = new Functions();
+            functions.generateCodeImporter(id);
             return "";
         }
 
@@ -71,6 +86,7 @@ namespace com.impoauto.service
         public bool postImporter(string importer)
         {
             // TODO implement here
+
             return false;
         }
     }
